@@ -1,4 +1,5 @@
-#head-nav {
+#bg-img {
+  height: 470px;
   margin: auto;
   background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
 }
@@ -120,4 +121,48 @@ a {
 .ButtonLink {
   cursor: pointer;
   padding: 0px 27px;
+}
+
+.home01 div img {
+  height: 90px;
+  width: 100%;
+  border-radius: 4%;
+}
+
+.home01 div {
+  background-color: #328d67;
+  margin: 5%;
+  border-radius: 4%;
+  color: white;
+}
+
+.home01 div p {
+  /* height: 60px; */
+  padding-top: 8px;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-color: #2e3035;
+  color: white;
+}
+
+.home02 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 140px;
+}
+
+.home02 div {
+  background-color: #328d67;
+  margin: 3%;
+  color: white;
+}
+
+.home02 div p {
+  height: 60px;
+  padding-top: 8px;
+  text-align: center;
+  color: white;
 }

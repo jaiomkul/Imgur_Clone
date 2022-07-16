@@ -1,5 +1,7 @@
 export default function navbar() {
-  return `      <nav class="p-4 flex">
+  return `      
+  <div>
+      <nav class="p-4 flex">
         <div class="flex">
           <a class="logoImg" href=""></a>
           <a class="Button ml-5" href="">
@@ -78,5 +80,19 @@ export default function navbar() {
             >
           </div>
         </div>
-      </nav>`;
+      </nav>
+      <h1 class="text-[24px] font-bold text-center text-[#aed8ea]">'Tis better to have memed and been downvoted than to never have memed at all.</h1>
+      <div>
+      <div
+          class="grid grid-cols-2 mx-[100px] mt-8 justify-between text-[#aed8ea] font-bold"
+        >
+          <div class="text-left">EXPLORE TAGS</div>
+          <div class="text-right">MORE TAGS +</div>
+        </div>
+        <div
+          class="home01 grid grid-cols-10 mx-[100px] mt-2"
+        >
+        </div>
+      </div>
+    <div>`;
 }
