@@ -1,6 +1,5 @@
 import navSearch from "../components/navSearch.js";
-import navBar from "../components/navBar.js";
-import home from "../components/home.js";
+import { home } from "../components/home.js";
 import { makeApiCall, appendData } from "./async";
 
 document.querySelector("#searchBar").innerHTML = navSearch();

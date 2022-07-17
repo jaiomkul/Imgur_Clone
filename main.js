@@ -7,7 +7,7 @@
 
 import navbar from "./src/components/navBar.js";
 import logoImg from "./src/svg/svgImg.js";
-import home from "./src/components/home.js";
+import { home } from "./src/components/home.js";
 import { makeApiCall, appendData } from "./src/script/async.js";
 
 document.querySelector("#head-nav").innerHTML = navbar();
