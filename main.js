@@ -29,11 +29,11 @@ appendData(res, image_data);
 appendData(res, image_data1);
 
 //Search Bar
-let input = document.querySelector(".Searchbar-textInput");
+let input = document.getElementById("Searchbar");
 
 input.addEventListener("keypress", (e) => {
   if (e.key === "Enter") {
-    let input_value = document.getElementById("Searchbar-textInput").value;
+    let input_value = document.getElementById("Searchbar").value;
 
     localStorage.setItem("search_term", input_value);
     window.location.href = "./src/html/navSearch.html";

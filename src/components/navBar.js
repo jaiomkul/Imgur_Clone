@@ -19,8 +19,7 @@ export default function navbar() {
               <input
                 placeholder="Images, #tags, @users oh my!"
                 type="text"
-                class="Searchbar-textInput" id="Searchbar-textInput"
-                name="q"
+                class="Searchbar-textInput" id="Searchbar"
                 value=""
                 style="height: 36px"
               /><button type="submit" class="Searchbar-submitInput">
