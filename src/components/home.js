@@ -13,5 +13,3 @@ export default function home() {
   </div>
 </div>`;
 }
-
-import { makeApiCall, appendData } from "../script/async";

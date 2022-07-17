@@ -16,11 +16,10 @@ export default function navbar() {
 
         <div class="NavbarContainer-center">
           <div class="Searchbar">
-            <form class="Searchbar-form" action="/search">
               <input
                 placeholder="Images, #tags, @users oh my!"
                 type="text"
-                class="Searchbar-textInput"
+                class="Searchbar-textInput" id="Searchbar-textInput"
                 name="q"
                 value=""
                 style="height: 36px"
@@ -30,7 +29,6 @@ export default function navbar() {
                   src="https://s.imgur.com/desktop-assets/desktop-assets/icon-search.8d0f9b564a4659d48d8eca38b968a7f2.svg"
                 />
               </button>
-            </form>
           </div>
         </div>
 
@@ -94,5 +92,5 @@ export default function navbar() {
         >
         </div>
       </div>
-    <div>`;
+    </div>`;
 }
