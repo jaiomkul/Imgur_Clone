@@ -4,11 +4,11 @@
 //   <h1>Hello Vite!</h1>
 //   <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
 // `
-import "./src/style/input.css";
-import navbar from "./src/components/navBar.js";
-import logoImg from "./src/svg/svgImg.js";
-import { home } from "./src/components/home.js";
-import { makeApiCall, appendData } from "./src/script/async.js";
+// import "../style/input.css";
+import navbar from "../components/navBar.js";
+import logoImg from "../svg/svgImg.js";
+import { home } from "../components/home.js";
+import { makeApiCall, appendData } from "./async.js";
 
 document.querySelector("#head-nav").innerHTML = navbar();
 
