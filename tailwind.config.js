@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx}", "./index.html"],
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },

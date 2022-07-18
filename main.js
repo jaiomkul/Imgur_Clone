@@ -4,7 +4,7 @@
 //   <h1>Hello Vite!</h1>
 //   <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
 // `
-
+import "./src/style/input.css";
 import navbar from "./src/components/navBar.js";
 import logoImg from "./src/svg/svgImg.js";
 import { home } from "./src/components/home.js";
